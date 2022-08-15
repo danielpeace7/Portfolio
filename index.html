@@ -3,55 +3,158 @@
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Olayanju Daniel</title>
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="man.png">
+  <link rel="icon" href="images/man.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Sacramento&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
-  <div class="top-container">
-    <h1>I'm Daniel.</h1>
-    <h2>a web designer.</h2>
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img class="my-image" src="images/man.png" alt="my-image">
-      <h2>Hi.</h2>
-      <p class="intro">I'm a web designer/developer. I have passion for web design, and I'm constantly looking to build awesome designs for web and mobile devices.</p>
-    </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="skill-img" src="images/programming.png" alt="my-skills">
-        <h3>Design what you want.</h3>
-        <p>I like to keep it basic, and focus on typography, content and passing your desired message.</p>
+  <header>
+    <div class="hamburger-menu">
+      <div class="button">
+        <img class="toggle-off" src="images/toggle_off.png" alt="toggle-off" id="icons">
       </div>
-      <div class="skill-row">
-        <img class="my-skill" src="images/coding.png" alt="my-skills">
-        <h3>Develop what you need.</h3>
-        <p>I'm a developer, so I know how to make your site run across devices utilizing the most recent technologies accessible.</p>
+      <ul class="menu">
+        <li><a class="menuItem" href="#home">Home</a></li>
+        <li><a class="menuItem" href="#about">About</a></li>
+        <li><a class="menuItem" href="#services">Services</a></li>
+        <li><a class="menuItem" href="#projects">Projects</a></li>
+        <li><a class="menuItem" href="#contact">Contacts</a></li>
+        <li><a class="menuItem" href="#socials">Socials</a></li>
+      </ul>
+      <button class="hamburger-img">
+        <!-- material icons https://material.io/resources/icons/ -->
+        <i class="menuIcon material-icons">menu</i>
+        <i class="closeIcon material-icons" id="close">close</i>
+      </button>
+    </div>
+
+    <nav>
+      <div class="button">
+        <img class="toggle-off" src="images/toggle_off.png" alt="toggle-off" id="icon">
+      </div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#socials">Social</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <div class="top-container" id="home">
+      <div class="container">
+        <h1>I'm Daniel.</h1>
+        <h2>a web developer.</h2>
+        <!-- <img src="images/IMG-20191212-WA0048~2.jpg" alt=""> -->
       </div>
     </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>I'm currently available for work.</h3>
-      <p class="contact-message">If you have a project that you need to get rolling, think you need my assistance with something or just wanna say hello, then reach out.</p>
-      <a class="btn" href="mailto:olayanjudaniel66@gmail.com">CONTACT ME</a>
+
+    <!-- About Section -->
+    <div class="middle-container">
+      <div class="profile" id="about">
+        <h1>About</h1>
+        <div class="about">
+          <div class="profile-text">
+            <h2>Hi!</h2>
+            <p class="intro">I'm a web developer. I have passion for web design, and I'm constantly looking to build
+              awesome websites for web and mobile devices.</p>
+          </div>
+          <img src="images/social-media.png" alt="">
+        </div>
+      </div>
+
+      <!-- Skills Section -->
+      <div class="skills" id="services">
+        <h1>Services</h1>
+        <div class="skills-set">
+          <div class="skill-row" id="slidein">
+            <img class="skill-img" src="images/programming.png" alt="my-skills">
+            <h3>Design what you want.</h3>
+            <p>I like to keep it basic, and focus on typography, content and passing your desired message.</p>
+          </div>
+          <div class="skill-row">
+            <img class="skill-img" src="images/coding.png" alt="my-skills">
+            <h3>Develop what you need.</h3>
+            <p>I'm a developer, so I know how to make your site run across devices utilizing the most recent
+              technologies
+              accessible.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projects Section -->
+      <div class="projects" id="projects">
+        <h1>Projects</h1>
+        <div class="projects-img">
+          <div id="project-img">
+            <a href="https://danielpeace7.github.io/Responsiveness-and-Media-Query/" target="_blank"><img class="huddle"
+                src="images/project.png" alt=""></a>
+            <a class="code-link" href="https://github.com/danielpeace7/Responsiveness-and-Media-Query" target="_blank">View code on github</a>
+          </div>
+          <div id="project-img">
+            <a href="https://danielpeace7.github.io/Metadata-Landing-Page/" target="_blank"><img class="huddle"
+                src="images/metadata.png" alt=""></a>
+            <a class="code-link" href="https://github.com/danielpeace7/Metadata-Landing-Page" target="_blank">View code on github</a>
+          </div id="project-img">
+          <div id="project-img">
+            <a href="https://github.com/danielpeace7/Drum-set" target="_blank"><img class="huddle"
+                src="images/drum-set.png" alt=""></a>
+            <a class="code-link" href="https://danielpeace7.github.io/Drum-set/" target="_blank">View code on github</a>
+          </div>
+          <div id="project-img">
+            <a href="https://danielpeace7.github.io/Simon-Game/" target="_blank"><img class="huddle"
+                src="images/simon-game.png" alt=""></a>
+            <a class="code-link" href="https://github.com/danielpeace7/Simon-Game" target="_blank">View code on github</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="contact-me" id="contact">
+        <h1>Get In Touch</h1>
+        <div class="contacts">
+          <h3>I'm currently available for work.</h3>
+          <p>If you have a project that you need to get rolling, think you need my assistance with
+            something or just wanna say hello, then reach out.</p>
+          <div class="input-field">
+            <input type="text" name="text" class="text" placeholder="Name">
+            <input type="email" name="email" class="email" placeholder="Email">
+            <input type="text" name="text" class="text" placeholder="Subject">
+            <textarea name="message" class="message" placeholder="Message"></textarea>
+          </div>
+          <a class="btn" href="mailto:danielpeace7@gmail.com">CONTACT ME</a>
+        </div>
+      </div>
     </div>
-  </div>
+  </main>
+  <!-- Footer Section -->
+  <footer id="socials">
+    <div class="bottom-container" id="socials">
+      <a class="footer-link" href="https://www.github.com/danielpeace7"><img class="github-img"
+          src="images/github.svg" alt="github-img"></a>
+      <a class="footer-link" href="https://www.linkedin.com/in/daniel-olayanju/"><img class="linkedin-img"
+          src="images/linkedin.svg" alt="linkedin-img"></a>
+      <a class="footer-link" href="https://www.twitter.com/"><img class="twitter-img" src="images/twitter.svg"
+          alt="twitter-img"></a>
+      <a class="footer-link" href="https://www.instagram.com/danielp.eace" target="_blank"><img class="instagram-img"
+          src="images/instagram.svg" alt="instagram-img"></a>
+    </div>
+    <p class="copyright">&copy; 2022 Daniel Olayanju.</p>
+  </footer>
 
-
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/daniel-olayanju/"><img class="linkedin-img" src="images/linkedin.png" alt="linkedin-img"></a>
-    <a class="footer-link" href="https://www.twitter.com/"><img class="twitter-img" src="images/twitter-sign.png" alt="twitter-img"></a>
-    <a class="footer-link" href="https://www.instagram.com"><img class="instagram-img" src="images/instagram.png" alt="instagram-img"></a>
-    <p class="copyright">© 2022 Daniel Olayanju.</p>
-  </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
