@@ -328,6 +328,10 @@ p {
   width: 90vw;
 }
 
+#project-img {
+  padding-bottom: 20px;
+}
+
 .huddle {
   border: 2px solid var(--border-color);
   border-radius: 10px;
