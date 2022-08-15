@@ -47,6 +47,7 @@ darkMode.onclick = function() {
 
 if (localStorage.getItem("theme") === "dark") {
   document.body.classList.add('dark-theme');
+  darkMode.classList.add('toggleOff');
 }
 
 // DARK MODE 699PX SCREENS
@@ -66,4 +67,5 @@ icons.onclick = function() {
 
 if (localStorage.getItem("theme") === "dark") {
   document.body.classList.add('dark-theme');
+  icons.classList.add("toggleOn");
 }
