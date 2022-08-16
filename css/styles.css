@@ -1,14 +1,14 @@
 :root {
   --border-color: #FFFFFF;
   --button-hover: invert(72%) sepia(10%) saturate(1651%) hue-rotate(175deg) brightness(84%) contrast(90%);
-  --container-color: #FFFFFF;
+  --container-color: #5DBBBB;
   --hover-color: #769FCD;
   --input-color: gray;
   --p-text-color: #40514E;
   --primary-color: #E4F9F5;
   --secondary-color: #FFFFFF;
-  --social-color: invert(97%) sepia(17%) saturate(4786%) hue-rotate(149deg) brightness(89%) contrast(64%);
-  --text-color: #66BFBF;
+  --social-color: invert(41%) sepia(37%) saturate(534%) hue-rotate(131deg) brightness(97%) contrast(95%);;
+  --text-color: #357E7E;
 }
 
 /* DARK THEME */
